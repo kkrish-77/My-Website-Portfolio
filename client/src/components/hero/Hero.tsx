@@ -21,21 +21,37 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="flex flex-col items-center text-center mb-12"
           >
+            {/* Profile Picture */}
+            <motion.div
+              initial={{ scale: 0, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              className="relative mb-8 group"
+            >
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary via-primary/50 to-primary rounded-full blur-lg opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+              <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-background">
+                <img
+                  src="https://images.unsplash.com/photo-1573496799515-eebbb63814f2"
+                  alt="Kkrish Singh"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </motion.div>
+
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8">
               <Code2 className="w-4 h-4 text-primary" />
               <span className="text-sm text-primary">DevOps Engineer</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
               Hi, I'm{" "}
-              <span className="relative">
-                <span className="relative z-10 bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
+              <span className="relative inline-block">
+                <span className="relative z-10 bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent decoration-transparent">
                   Kkrish Singh
                 </span>
-                <span className="absolute bottom-0 left-0 w-full h-3 bg-primary/20 -skew-x-12" />
               </span>
             </h1>
-            
+
             <p className="text-xl text-muted-foreground max-w-2xl">
               Building robust infrastructure and automating development workflows with
               modern DevOps practices and cloud technologies.
