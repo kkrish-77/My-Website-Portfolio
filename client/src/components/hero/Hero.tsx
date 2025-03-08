@@ -31,7 +31,7 @@ export default function Hero() {
               <div className="absolute -inset-1 bg-gradient-to-r from-primary via-primary/50 to-primary rounded-full blur-lg opacity-75 group-hover:opacity-100 transition duration-1000"></div>
               <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-background">
                 <img
-                  src="https://images.unsplash.com/photo-1573496799515-eebbb63814f2"
+                  src="https://i.postimg.cc/g21KBKhp/profile-pic-1.png"
                   alt="Kkrish Singh"
                   className="w-full h-full object-cover"
                 />
@@ -53,8 +53,9 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl text-muted-foreground max-w-2xl">
-              Building robust infrastructure and automating development workflows with
-              modern DevOps practices and cloud technologies.
+            Ambitious DevOps Engineer, Automating everything—except my coffee! ☕ 
+            Passionate about DevOps & Cloud, and coding my way out of repetitive tasks.
+            If it can be automated, consider it done! 
             </p>
           </motion.div>
 

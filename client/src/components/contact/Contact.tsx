@@ -18,7 +18,8 @@ export default function Contact() {
         >
           <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Interested in collaborating or have a project in mind? Let's connect!
+            Interested in collaborating or have a project in mind? Let's
+            connect!
           </p>
         </motion.div>
 
@@ -39,11 +40,11 @@ export default function Contact() {
                   <div className="p-3 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <a 
-                    href="mailto:kkrish@example.com"
+                  <a
+                    href="kkrshsingh@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    kkrish@example.com
+                    kkrshsingh@gmail.com
                   </a>
                 </div>
 
@@ -51,13 +52,13 @@ export default function Contact() {
                   <div className="p-3 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                     <Github className="w-5 h-5" />
                   </div>
-                  <a 
-                    href="https://github.com/kkrish"
+                  <a
+                    href="https://github.com/kkrish-77"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    github.com/kkrish
+                    github.com/kkrish-77
                   </a>
                 </div>
 
@@ -65,13 +66,13 @@ export default function Contact() {
                   <div className="p-3 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                     <Linkedin className="w-5 h-5" />
                   </div>
-                  <a 
-                    href="https://linkedin.com/in/kkrish"
+                  <a
+                    href="https://linkedin.com/in/kkrish-singh"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    linkedin.com/in/kkrish
+                    linkedin.com/in/kkrish-singh
                   </a>
                 </div>
               </CardContent>
@@ -92,20 +93,17 @@ export default function Contact() {
               <CardContent>
                 <form className="space-y-4">
                   <div>
-                    <Input 
-                      placeholder="Your Name"
-                      className="bg-background"
-                    />
+                    <Input placeholder="Your Name" className="bg-background" />
                   </div>
                   <div>
-                    <Input 
+                    <Input
                       type="email"
                       placeholder="Your Email"
                       className="bg-background"
                     />
                   </div>
                   <div>
-                    <Textarea 
+                    <Textarea
                       placeholder="Your Message"
                       className="min-h-[120px] bg-background"
                     />

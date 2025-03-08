@@ -6,27 +6,27 @@ import { Github, ExternalLink, GitBranch, Server } from "lucide-react";
 
 const projects = [
   {
-    title: "Cloud Infrastructure Automation",
-    description: "Developed comprehensive IaC templates for AWS infrastructure using Terraform and CloudFormation",
-    image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9",
-    github: "https://github.com/kkrish/cloud-automation",
+    title: "Netflix Trends Visualize using AWS QuickSight",
+    description: "Netflix trends visualization with AWS QuickSight utilizes Amazon's analytics tool to design insightful dashboards and analyze catalog data.",
+    image: "https://i.postimg.cc/rwfJTPXs/Screenshot-2025-03-07-211632.png",
+    github: "https://github.com/kkrish-77/Netflix-Trends-Visualize-using-QuickSight.git",
     demo: "https://cloud-demo.dev",
-    tags: ["Terraform", "AWS", "IaC", "CloudFormation"]
+    tags: ["AWS", "QuickSight", "Data Visualization"]
   },
   {
-    title: "Kubernetes Cluster Management",
-    description: "Implemented automated Kubernetes cluster setup with monitoring and scaling capabilities",
-    image: "https://images.unsplash.com/photo-1667372397557-b4f84b0ff6b3",
-    github: "https://github.com/kkrish/k8s-automation",
+    title: "Deploying 2048: The Docker Way",
+    description: "Deploying 2048 using Docker simplifies hosting the game by creating a portable, consistent environment.",
+    image: "https://i.postimg.cc/D0SpN6VN/image.png",
+    github: "https://github.com/kkrish-77/Deploying-2048-The-Docker-Way.git",
     demo: "https://k8s-demo.dev",
-    tags: ["Kubernetes", "Docker", "Prometheus", "Grafana"]
+    tags: ["Docker", "Conatainerization", "Game deployment"]
   },
   {
-    title: "CI/CD Pipeline Orchestration",
-    description: "Built scalable CI/CD pipelines with Jenkins, integrating security scanning and automated testing",
-    image: "https://images.unsplash.com/photo-1667372393913-84465a8844ae",
-    github: "https://github.com/kkrish/cicd-orchestration",
-    tags: ["Jenkins", "GitOps", "Security", "Testing"]
+    title: "Spotify-playlist-automation-using-Terraform",
+    description: "Spotify playlist automation with Terraform simplifies playlist creation and management using infrastructure-as-code principles.",
+    image: "https://i.postimg.cc/CL3ZqCG7/image.png",
+    github: "https://github.com/kkrish-77/Spotify-Playlist-Automation-using-Terraform.git",
+    tags: ["Terraform", "Spotify API", "Automation"]
   }
 ];
 

@@ -10,10 +10,10 @@ const areas = [
     skills: ["AWS Services", "Infrastructure as Code", "Cost Optimization"]
   },
   {
-    title: "Container Orchestration",
+    title: "Containerization",
     description: "Building and managing containerized applications",
     icon: SiDocker,
-    skills: ["Docker", "Kubernetes", "Microservices Architecture"]
+    skills: ["Docker", "Containerization Deployment", "Microservices Architecture"]
   },
   {
     title: "CI/CD Implementation",
@@ -22,10 +22,10 @@ const areas = [
     skills: ["Jenkins", "GitOps", "Continuous Deployment"]
   },
   {
-    title: "Configuration Management",
-    description: "Automating system configurations and deployments",
-    icon: SiAnsible,
-    skills: ["Ansible", "Infrastructure Automation", "Version Control"]
+    title: "K8s",
+    description: "Skilled in managing clusters, ensuring reliability, and optimizing resources for smooth application performance.",
+    icon: SiKubernetes,
+    skills: ["Kubernetes", "Container Orchestration", "Cluster Management"]
   }
 ];
 

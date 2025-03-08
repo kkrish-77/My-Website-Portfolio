@@ -5,8 +5,8 @@ import { BriefcaseIcon, GitBranchIcon, ContainerIcon } from "lucide-react";
 
 const experiences = [
   {
-    title: "Junior DevOps Engineer",
-    company: "Tech Solutions Inc.",
+    title: "DevOps Engineer Intern",
+    company: "Autowhat Chatbot Services Pvt. Ltd.",
     period: "Feb 2024 - Present",
     description: "Implementing and maintaining CI/CD pipelines, managing cloud infrastructure, and automating deployment processes.",
     achievements: [
@@ -15,7 +15,7 @@ const experiences = [
       "Automated infrastructure provisioning with Terraform"
     ],
     icon: BriefcaseIcon,
-    technologies: ["Jenkins", "Docker", "Kubernetes", "AWS", "Terraform"]
+    technologies: ["Jenkins", "Docker", "Kubernetes", "AWS", "GCP" , "Terraform" , "GitHub Actions" , "Prometheus" , "Grafana"]
   }
 ];
 
