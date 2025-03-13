@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Code2, Terminal, ArrowRight } from "lucide-react";
+import { Code2, Terminal, ArrowRight, FileDown } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -75,6 +75,12 @@ export default function Hero() {
               <a href="#contact">
                 <Terminal className="mr-2 h-4 w-4" />
                 Get in Touch
+              </a>
+            </Button>
+            <Button size="lg" variant="outline" className="group" asChild>
+              <a href="/Kkrish-Singh-Resume.pdf" download="Kkrish-Singh-Resume.pdf">
+                <FileDown className="mr-2 h-4 w-4" />
+                Download Resume
               </a>
             </Button>
           </motion.div>
